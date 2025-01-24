@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import { axiosInstance } from "../lib/axios.jsx";
 import toast from "react-hot-toast";
 
-const BASE_URL = "http://localhost:8000"
+const BASE_URL = "https://backend-nma9.onrender.com"
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
